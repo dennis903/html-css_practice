@@ -1,0 +1,19 @@
+.login_page{
+	margin: 50px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#login_page__header {
+	font-size: 22px;
+}
+
+#login_page__paragraph {
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+
+}
+

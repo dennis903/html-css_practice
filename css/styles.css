@@ -1,5 +1,9 @@
 @import 'variables.css';
+@import 'status_bar.css';
+@import 'entry.css';
+@import 'login.css';
 
 body {
-	background-color: var(--yellow);
+	font-family: 'Fredoka', sans-serif;
+	height: 100vh;
 }
