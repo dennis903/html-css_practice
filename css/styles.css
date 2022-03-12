@@ -3,10 +3,12 @@
 @import 'entry.css';
 @import 'login.css';
 @import 'nav.css';
+@import 'menu_bar.css';
 @import 'friends.css';
 
 body {
 	margin: 0px;
+	padding-top: 15px;
 	font-family: 'Fredoka', sans-serif;
 	height: 100vh;
 }
