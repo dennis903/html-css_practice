@@ -2,8 +2,11 @@
 @import 'status_bar.css';
 @import 'entry.css';
 @import 'login.css';
+@import 'nav.css';
+@import 'friends.css';
 
 body {
+	margin: 0px;
 	font-family: 'Fredoka', sans-serif;
 	height: 100vh;
 }
