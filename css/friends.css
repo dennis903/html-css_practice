@@ -26,7 +26,7 @@
 .friends_profile__image {
 	width: 60px;
 	height: 60px;
-	border-radius: 15px;
+	border-radius: 24px;
 	margin-right: 13px;
 }
 
@@ -47,4 +47,20 @@
 .friends_channel__column {
 	display: flex;
 	align-items: center;
+}
+
+.fa_sm {
+	width: 40px;
+	height: 40px;
+	border-radius: 16px;
+}
+
+.friends_channel__title > h4 {
+	font-weight: 400;
+}
+
+.friends_channel__more {
+	margin-left: auto;
+	color: rgba(0, 0, 0, 0.2);
+	font-size: 13px;
 }

@@ -12,7 +12,6 @@
 
 .menu_bar__list {
 	width: 50%;
-	padding-left: 100px;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;

@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">	
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
-	<title>kokoaTalk-Friends</title>
+	<title>kokoaTalk-Chats</title>
 </head>
 <body>
 	<div class="status_bar">
@@ -24,50 +24,35 @@
 		</div>
 	</div>
 	<div class="menu_bar">
-		<h1 class="menu_bar__title">Friends</h1>
+		<h1 class="menu_bar__title">Chats</h1>
 		<ul class="menu_bar__list ">
 			<li class="menu_bar__element"><i class="fa-solid fa-magnifying-glass fa-lg"></i></li>
+			<li class="menu_bar__element"><i class="fa-regular fa-comment fa-lg"></i></li>
 			<li class="menu_bar__element"><i class="fa-solid fa-music fa-lg"></i></li>
 			<li class="menu_bar__element"><i class="fa-solid fa-gear fa-lg"></i></li>
 		</ul>
 	</div>
-	<div class="friends_info_bar">
-		<i class="fa-solid fa-circle-info"></i>
-		<span>Friends' Names Display</span>
-		<i class="fa-solid fa-angle-right"></i>
-	</div>
-	<main class="friends">
-		<div class="friends_profile">
-			<img class="friends_profile__image" src="images/profile.jpeg">
-			<span class="friends_profile__name">hyeolee</span>
-		</div>
-		<div class="friends_channel">
-			<div class="friends_channel__header">
-				<span>Channel</span>
-				<i class="fa-solid fa-angle-up fa-sm"></i>
+	<main class="friends chats">
+		<div class="friends_profile chats_profile">
+			<img class="friends_profile__image" src="images/hyewani.jpeg">
+			<div class="chats_title">
+				<span class="friends_profile__name chats_profile__name">혜블리</span>
+				<span class="chats_state_message">이형진 바보~</span>
 			</div>
-			<div class="friends_channel__column">
-				<div class="friends_channel__profile">
-					<img class="friends_profile__image fa_sm" src="images/kakao_channel.png">
-				</div>
-				<div class="friends_channel__title">
-					<h4>Channel</h4>
-				</div>
-				<div class="friends_channel__more">
-					<span>2</span>
-					<i class="fa-solid fa-angle-right fa-sm"></i>
-				</div>
+			<div class="chats_info">
+				<span class="chats_time">22:03</span>
+				<span id="alarm2">1</span>
 			</div>
 		</div>
 	</main>
 	<nav class="nav_bar">
 		<ul class="nav_bar__list">
 			<li>
-				<a href="friends.html" class="nav_bar__link"><i class="fa-solid fa-user fa-lg"></i></a>
+				<a href="friends.html" class="nav_bar__link"><i class="fa-regular fa-user fa-lg"></i></a>
 			</li>
 			<li>
 				<a href="chats.html" class="nav_bar__link">
-					<i class="fa-regular fa-comment fa-lg"></i>
+					<i class="fa-solid fa-comment fa-lg"></i>
 					<span id="alarm">1</span>
 				</a>
 			</li>

@@ -5,10 +5,11 @@
 @import 'nav.css';
 @import 'menu_bar.css';
 @import 'friends.css';
+@import 'chats.css';
 
 body {
 	margin: 0px;
 	padding-top: 15px;
-	font-family: 'Fredoka', sans-serif;
+	font-family: 'Fredoka', 'sans-serif';
 	height: 100vh;
 }
