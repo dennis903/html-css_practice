@@ -1,0 +1,11 @@
+.friends_info_bar {
+	display: flex;
+	background-color: rgb(250, 250, 250);
+	padding: 10px 78px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.friends_info_bar > i {
+	color: rgb(213, 213, 213);
+}
