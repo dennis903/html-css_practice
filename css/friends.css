@@ -9,3 +9,42 @@
 .friends_info_bar > i {
 	color: rgb(213, 213, 213);
 }
+
+.friends {
+	margin: 0px 10px;
+}
+
+.friends_profile {
+	width: 100%;
+	padding: 15px 0px;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	display: flex;
+	align-items: center;
+}
+
+.friends_profile__image {
+	width: 60px;
+	height: 60px;
+	border-radius: 15px;
+	margin-right: 13px;
+}
+
+.friends_profile__name {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.friends_channel__header {
+	padding: 15px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.friends_channel__column {
+	display: flex;
+	align-items: center;
+}
