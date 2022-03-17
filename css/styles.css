@@ -6,10 +6,11 @@
 @import 'menu_bar.css';
 @import 'friends.css';
 @import 'chats.css';
+@import 'find.css';
 
 body {
 	margin: 0px;
 	padding-top: 15px;
 	font-family: 'Fredoka', 'sans-serif';
-	height: 100vh;
+	height: 150vh;
 }
